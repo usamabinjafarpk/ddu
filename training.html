@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Training centers</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="header">
+            <img src="icon.png" style="width: auto; height: 95px;">
+            <div class="head">
+                <a href="/">Home</a>
+                <a href="about.html">About</a>
+                <a href="profile.html">Profile</a>
+                <a href="login.html">Login</a>
+            </div>
+        </div>
+        <div style="width: 100%; height: 800px; display:flex; justify-content: center; align-items: center; ">
+            <div class="log">
+                <h1>Choose Training Centers</h1><br>
+                <form style="display: flex; flex-direction: column;">
+                    <label for="stat">State:</label>
+                    <input class="ip" list="state">
+                    <datalist id="state">
+                        <option value="Kerala">Kerala</option>
+                        <option value="Tamilnad"></option>
+                        <option value="Andra pradesh"></option>
+                        <option value="Jammu&Kashmir"></option>
+                        <option value="Gujarath"></option>
+                        <option value="Hariyana"></option>
+                    </datalist><br>
+                   
+                    <label for="dis">District:</label>
+                    <input class="ip" list="dist">
+                    <datalist id="dist">
+                        <option value="Malappuram">
+                        <option value="Kozhikkode">
+                        <option value="Trivandrum">
+                        <option value="Kasargod">
+                        <option value="Kannur">         
+                    </datalist><br>
+                    <a style="background-color: aliceblue; border-radius: 20px; width: 96px; cursor: pointer; color: black; display: flex; flex-direction: column;align-items: center;">Submit</a>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
